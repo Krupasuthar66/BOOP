@@ -6,7 +6,7 @@ GTU Practical List.
 Below All practicals are available in this repository.
 
 1.		Create your account on github and save simple C++ program in github.
-2.		Develop minimum 5 programs using cin and cout.(https://github.com/Krupasuthar66/BOOP/blob/main/Practical2(1).cpp)
+2.		Develop minimum 5 programs using cin and cout.
 4.		Develop programs using scope resolution operator, simple manipulators, and enumeration.
 5.		Develop programs using call by reference and return by reference, default arguments, constant arguments, inline and function overloading.
 6.		Develop programs using structures.
