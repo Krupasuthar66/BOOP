@@ -131,4 +131,51 @@ cout <<" \n Square Root of " << num1<< " is : "<< q;
 }  
 
 
+// OUTPUT //
+
+Select any operation from the C++ Calculator
+1 = Addition
+2 = Subtraction
+3 = Multiplication
+4 = Division
+5 = Square
+6 = Square Root
+7 = Exit
+
+ Make a choice: 1
+How many numbers you want to add: 5
+Please enter the number one by one: 
+3
+4
+5
+6
+7
+
+ Sum of the numbers = 25
+------------------------------
+Select any operation from the C++ Calculator
+1 = Addition
+2 = Subtraction
+3 = Multiplication
+4 = Division
+5 = Square
+6 = Square Root
+7 = Exit
+
+ Make a choice: 6
+
+ Enter the number to find the Square Root:625
+ 
+ Square Root of 625 is : 25
+------------------------------
+Select any operation from the C++ Calculator
+1 = Addition
+2 = Subtraction
+3 = Multiplication
+4 = Division
+5 = Square
+6 = Square Root
+7 = Exit
+
+ Make a choice:     
 
