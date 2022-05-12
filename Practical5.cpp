@@ -1,4 +1,4 @@
-// Passing structure to function in C++
+// 1. Passing structure to function in C++
 
 #include <iostream>
 using namespace std;
@@ -45,7 +45,7 @@ Age: 34
 Salary: 34234.5
 
 
-//  Returning structure from function in C++
+//  2. Returning structure from function in C++
 
 #include <iostream>
 using namespace std;
