@@ -6,17 +6,17 @@ class books
   char title[30];
   float price;
   public:
-     void getdata(void);
-     void putdata(void);
+     void getdata();
+     void putdata();
 };
-void books :: getdata(void) 
+void books :: getdata() 
 {
    cout<<"Title:";
    cin>>title;
    cout<<"Price:”;
    cin>>price;
 }
-void books :: putdata(void) 
+void books :: putdata() 
 {
    cout<<"Title:"<<title<<endl;
    cout<<"Price:"<<price<<endl;
