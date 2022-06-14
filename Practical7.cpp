@@ -3,38 +3,37 @@
 using namespace std;
 class books 
 {
-  char tit1e [30];
-  float price ;
+  char title[30];
+  float price;
   public:
-     void getdata ();
-     void putdata ();
-} ;
-void books :: getdata ()
+     void getdata(void);
+     void putdata(void);
+};
+void books :: getdata(void) 
 {
-   cout<<"Title:”;
+   cout<<"Title:";
    cin>>title;
    cout<<"Price:”;
    cin>>price;
 }
-void books :: putdata ()
+void books :: putdata(void) 
 {
-   cout<<"Title:"<<title<< "\n";
-   cout<<"Price:"<<price<< "\n”;
-   const int size=3 ;
+   cout<<"Title:"<<title<<endl;
+   cout<<"Price:"<<price<<endl;
 }
-int main()
+int main() 
 {
-  books book[size] ;
-  for(int i=0;i<size;i++)
+  books book[3];
+  for(int i=0;i<3;i++)
   {
-    cout<<"Enter details o£ book "<<(i+1)<<"\n";
+    cout<<"Enter details o£ book "<<(i+1)<<endl;
     book[i].getdata();
-}
-   for(int i=0;i<size;i++) 
+  }
+   for(int i=0;i<3;i++)
    {
-     cout<<"\nBook "<<(i+l)<<"\n";
-     book[i].putdata() ;
-} 
+     cout<<"\nBook "<<(i+1)<<endl;
+     book[i].putdata();
+   } 
     return 0;
 }
  
