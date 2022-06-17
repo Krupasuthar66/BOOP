@@ -104,7 +104,6 @@ class Demo
       cout<<"b is"<<x.b<<endl;
   }
 };
-using namespace std;
 int main() 
 {
     Test t;
