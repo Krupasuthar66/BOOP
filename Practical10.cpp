@@ -190,5 +190,4 @@ Area : 78.5
  3. Area of Triangle
  4. Exit
 
- Enter Your Choice : 
-
+ Enter Your Choice : 4
