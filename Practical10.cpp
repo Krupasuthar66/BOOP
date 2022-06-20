@@ -156,3 +156,39 @@ int main()
         return 0;
 }
 
+//   OUTPUT
+
+1. Area of Circle
+2. Area of Rectangle
+3. Area of Triangle
+4. Exit
+
+Enter Your Choice : 1
+Enter Radius of the Circle : 5
+Area : 78.5
+
+ 1. Area of Circle
+ 2. Area of Rectangle
+ 3. Area of Triangle
+ 4. Exit
+
+ Enter Your Choice : 2
+ Enter Length and Breadth of the Rectangle : 5 6
+ Area : 30
+
+ 1. Area of Circle
+ 2. Area of Rectangle
+ 3. Area of Triangle
+ 4. Exit
+
+ Enter Your Choice : 3
+ Enter Sides of the Triangle : 2 3 3
+ Area : 2.82843
+
+ 1. Area of Circle
+ 2. Area of Rectangle
+ 3. Area of Triangle
+ 4. Exit
+
+ Enter Your Choice : 
+
