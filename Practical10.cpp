@@ -191,3 +191,133 @@ Area : 78.5
  4. Exit
 
  Enter Your Choice : 4
+
+  //  10.4  Write a program to demonstrate use of Copy Constructor.
+     
+ #include <iostream>
+
+using namespace std;
+class code
+{
+  int id;
+  public:
+  code()
+  {
+      
+  }
+  code(int a)
+  {
+      id=a;
+  }
+  code(code &x)
+  {
+      id=x.id;
+  }
+  void display()
+  {
+      cout<<id;
+  }
+};
+int main()
+{
+    code A(100);
+    code B(A);
+    code C=A;
+    code D;
+    D=A;
+    cout<<"\n id of A :"; 
+    A.display( );
+    cout<<"\n id of B :"; 
+    B.display( );
+    cout<<" \n id of C:"; 
+    C.display( );
+    cout<<" \n id of D:"; 
+    D.display( );
+    
+    return 0;
+}
+
+//   OUTPUT
+
+id of A :100
+id of B :100 
+id of C:100 
+id of D:100
+    
+////   10.5  Write a program to demonstrate use of Destructor.
+    
+#include <iostream>
+
+using namespace std;
+class apollo
+{
+  public:
+   static int count;
+  apollo()
+  {
+      count++;
+      cout<<"\n no of object created "<<count<<endl;
+  }
+  ~apollo()
+  {
+      cout<<"\n no of object destroyed "<<count<<endl;
+      count--;
+  }
+};
+int apollo :: count=0;
+int main()
+{
+    cout<<"\n \n Main: \n ";
+    apollo A1,A2,A3,A4;
+    {
+    cout<<" \n enter in other block:\n";
+    apollo A5;
+    apollo A6;
+    apollo A7;
+    apollo A8;
+    }
+    cout<<" \n re-enter Main: \n";
+    return 0;
+}
+
+//   OUTPUT
+
+Main: 
+ 
+no of object created 1
+no of object created 2
+
+ no of object created 3
+
+ no of object created 4
+ 
+ enter in other block:
+
+ no of object created 5
+
+ no of object created 6
+
+ no of object created 7
+
+ no of object created 8
+
+ no of object destroyed 8
+
+ no of object destroyed 7
+
+ no of object destroyed 6
+
+ no of object destroyed 5
+ 
+ re-enter Main: 
+
+ no of object destroyed 4
+
+ no of object destroyed 3
+
+ no of object destroyed 2
+
+ no of object destroyed 1
+
+
+    
