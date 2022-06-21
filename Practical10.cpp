@@ -15,7 +15,7 @@ class circle
 };
 inline void circle :: compute()
 {
-    a=3.12*r*r;
+    a=3.14*r*r;
 }
 inline void circle :: display()
 {
@@ -51,7 +51,7 @@ class circle
 };
 inline void circle :: compute()
 {
-    a=3.12*r*r;
+    a=3.14*r*r;
 }
 inline void circle :: display()
 {
