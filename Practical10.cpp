@@ -32,7 +32,7 @@ int main()
 // OUTPUT
 
 Enter the value of radius:4
-Area=49.92
+Area=50.24
   
 // 10.2 Write a program to find area of circle using Object oriented Programming.The value of the radius must be accepted from the user in the main program and the and passed to the parameterized constructor and the class circle must have two inline functions namely: (a) compute() for calculating the area (b) display() for displaying the result
   
@@ -70,8 +70,8 @@ int main()
 
 // OUTPUT
 
-Enter the value of radius:4
-Area=49.92
+Enter the value of radius:5
+Area=78.5
   
 // 10.3 Write a program to calucalte the area of triangle, rectangle and circle using constructor overloading. The program should be menu-driven.
   
