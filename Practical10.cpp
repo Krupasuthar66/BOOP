@@ -318,6 +318,63 @@ no of object created 2
  no of object destroyed 2
 
  no of object destroyed 1
+     
+ /// 10.6  Array of objects initialization with constructors in C++.
+     
+#include <iostream>
+#include <string>
+using namespace std;
+
+class person {
+private:
+    string name;
+    int age;
+
+public:
+    // default constructor
+    person()
+    {
+        name = "N/A";
+        age = 0;
+    }
+
+    // parameterized constructor with default argument
+    person(string name, int age = 18)
+    {
+        this->name = name;
+        this->age = age;
+    }
+
+    // function to display values
+    void display()
+    {
+        cout << name << "\t" << age << endl;
+    }
+};
+
+int main()
+{
+    //array of class objects declaration
+    person per[4] = { person("ABC"), person("PQR"), person("XYZ", 30), person() };
+
+    per[0].display();
+    per[1].display();
+    per[2].display();
+    per[3].display();
+
+    return 0;
+}
+
+//  OUTPUT
+
+ABC	18
+PQR	18
+XYZ	30
+N/A	0
+
+
+     
+    
 
 
     
