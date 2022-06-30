@@ -77,7 +77,6 @@ Area=78.5
   
 #include<iostream>
 #include<math.h>
-#include<cstdlib>
 using namespace std;
 
 class area
