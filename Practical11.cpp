@@ -50,7 +50,6 @@ public:
 int main() 
 {
     int i, n;
-    char ch;
     salary s[10];
     cout << "Enter the number of employee:";
     cin>>n;
