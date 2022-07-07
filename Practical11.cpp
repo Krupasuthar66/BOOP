@@ -255,7 +255,6 @@ class BankCredit : private Salary
 int main() 
 {
     int i, n;
-    char ch;
     BankCredit s[10];
     cout << "Simple Multi Level Inheritance Example Program : Payroll System \n";
     cout << "Enter the number of employee:";
