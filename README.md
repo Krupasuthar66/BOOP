@@ -1,8 +1,8 @@
-#BOOP #GTU #DIPLOMA #4320702 #BASIC OBJECT ORIENTED PROGRAMMING #2NDSEMESTER
+
 Basic Object Oriented Programming
 Subject code: 4320702
-This BOOP Repository f
-or Diploma Computer Engineering students for practicals.
+This BOOP Repository for
+Diploma Computer Engineering students for practicals.
 GTU Practical List.
 Below All practicals are available in this repository.
 
